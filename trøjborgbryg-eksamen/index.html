@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="da">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrøjborgBryg</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mobile-nav.js" defer></script>
+
+<body>
+    <!--menu-->
+    <header class="header">
+    <div class="topnav" id="myTopnav">
+        <div>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='index.html';">Forside</button>
+           </div>
+        <div class="dropdown">
+            <button class="dropbtn">Alkoholfri øl
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="voresudvalg.html">Vores udvalg</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Arrangementer
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="ombygningsside.html">Alkoholfri ølsmagning</a>
+            
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Om bryggeriet
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="voreshistorie.html">Vores historie</a>
+                <a href="hvorforalkholfriol.html">Hvorfor alkoholfri øl?</a>
+                <a href="ombygningsside.html">Forhandlere</a>
+                <a href="ombygningsside.html">Kontakt os</a>
+            </div>
+        </div>
+        
+            <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        </header>
+    <!--menu-->
+
+<main class="main">
+    <!--billeder-->
+    <div class="billeder_forside">
+        <img src="img/sommerbord.jpg" alt="">
+        <img src="img/sommerbord2.jpg" alt="">
+    </div>
+
+    <!--velkomst_tekst-->
+    <h2 class="forside_tekst_overskrift">Velkommen til TrøjborgBryg</h2>
+    <h4 class="forside_tekst">Et mirkobryggeri med et brændende ønske om, at frembringe en smagsoplelvelse ud 
+        over det sædvanlige. Vi brygger øl med omtanke for dig og naturen.</h4>
+
+    <!--billedeslider-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/billedslider1.jpg" style="width:100%" alt="Disken">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/billedslider2.jpg" style="width:100%" alt="">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/billedeslider3.jpg" style="width:100%" alt="">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="img/billedeslider4.jpg" style="width:100%" alt="">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div> 
+        
+    <!--nyhedsbokse-->
+    <!-- boks -->
+    <section id="blog">
+        <div class="blog_heading">
+            <h4>Nyhed</h4>
+        </div>
+
+<!-- Boks 1 -->
+        <div class="blog_container">
+        <div class="blog_box">
+        <div class="blog_img">
+            <img src="img/granolbobler.jpg" alt="blog">
+        </div>
+        <div class="blog_text">
+                <a href="voresudvalg.html" class="blog_title">Ny limited edition juleøl</a>            
+                <a href="voresudvalg.html" target="_self" class="tekst">Læs mere</a>
+        </div>
+        </div>
+
+<!-- Boks 2 -->
+        <div class="blog_box">
+        <div class="blog_img">
+           <img src="img/grapelime.jpg" alt="blog">
+            </div>
+       <div class="blog_text">
+                <a href="hvorforalkholfriol.html" class="blog_title">Hvorfor alkoholfri øl?</a>
+                <a href="hvorforalkholfriol.html" target="_self" class="tekst">Læs mere</a>
+       </div>
+       </div>
+        </div>
+    </section>
+    </main>
+    
+<!--footer-->
+       <footer class="footer">
+        <!-- Adresse -->
+        <section class="footer_container">
+        <p class="footer_item">
+            Tordenskjoldgade 85 <br>
+            8200 Trøjborg <br>
+            Danmark
+        </p>
+        <br>
+        
+         <!-- Sociale Medier -->
+        <div class="footer_item">
+        <p class="footer_item"> Sociale medier </p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><img src="img/facebook_logo.png" alt="facebook"></a>
+          <a href="#" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+          <a href="#" target="_blank"><img src="img/linkedin_logo.png" alt="in"></a>
+        </div>
+        </div>
+        <br>
+        
+         <!-- kontakt -->
+        <p class="footer_item"> 
+          Kontakt os her <br>
+        TrøjborgBryg@konakt.com 
+        </p>
+        </section>
+      </footer>
+   
+
+</body>
+
+</html>
